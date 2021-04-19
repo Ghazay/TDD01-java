@@ -4,3 +4,12 @@ public interface Actor {
         target.receive(message);
     }
 }
+
+
+/**
+ * actor terminate ?
+ * ne prend plus aucun message en entrée
+ * se kill (?)
+ * besoin d'une mailbox
+ * un goodguy ou badguy renvoit un message s'il est KO
+ */
